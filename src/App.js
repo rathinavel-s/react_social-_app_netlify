@@ -21,7 +21,7 @@ function App() {
     <div className="App">
 
      <DataProvider>
-      < Header title="RAGUL SOCIAL MEDIA" />
+      < Header title="SOCIAL MEDIA" />
 
       <Nav />
 
