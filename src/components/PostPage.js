@@ -5,7 +5,7 @@ import DataContext from '../context/DataContext';
 
 const PostPage = () => {
 
-  const {posts,handleDelete}= useContext(DataContext)
+  const {posts,handleDelete}= useContext(DataContext||[])
 
   const {id}=useParams();
   const post =posts.find(post=> (post.id).toString() === id);
